@@ -11,6 +11,7 @@ Chat GPT
 [![Latest Unstable Version](https://poser.pugx.org/panix/yii2-chatgpt/v/unstable)](https://packagist.org/packages/panix/yii2-chatgpt)
 [![License](https://poser.pugx.org/panix/yii2-chatgpt/license)](https://packagist.org/packages/panix/yii2-chatgpt)
 
+
 Installation
 ------------
 
