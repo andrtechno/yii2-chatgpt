@@ -1,0 +1,23 @@
+{
+    "name": "panix/yii2-chatgpt",
+    "description": "Yii2 ChatGPT",
+    "keywords": ["extension", "yii2", "chatgpt"],
+    "homepage": "https://github.com/andrtechno/yii2-chatgpt",
+    "type": "pixelion-component",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "PIXELION CMS",
+            "email": "dev@pixelion.com.ua",
+            "homepage": "https://pixelion.com.ua"
+        }
+    ],
+    "require": {
+        "orhanerday/open-ai": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "panix\\ext\\chatgpt\\": ""
+        }
+    }
+}
