@@ -14,12 +14,15 @@ class ChatGPT extends Component
      * @var string api key
      */
     public $apikey;
+    public $org;
     private $ai;
 
     public function init()
     {
         $this->ai = new OpenAi($this->apikey);
-        //$this->ai->setORG('');
+        if ($this->org) {
+            $this->ai->setORG($this->org);
+        }
     }
 
     public function __call($name, $params)

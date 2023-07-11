@@ -38,7 +38,8 @@ Add config file
     'components' => [
         'chatgpt' => [
             'class' => 'panix\ext\chatgpt\ChatGPT',
-            'apikey' => 'YOUR_API_KEY'
+            'apikey' => 'YOUR_API_KEY', //required
+            'org' => 'ORGANIZATION_KEY' // not required
         ],
         //...
     ]
